@@ -1,0 +1,106 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background: #8f57fd;
+    font-family: 'Muli', sans-serif;
+}
+
+.header
+{
+    width: 100vw;
+    height: 80px;
+    background: #8f57fd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img
+{
+    width: 200px;
+    margin: 10px;
+}
+
+.header__menu
+{
+    margin-right: 30px;
+}
+
+.header__menu ul
+{
+    display: none;
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    margin: 0px 0px 0px -14px;
+}
+
+/* Para que aparesca el UL */ 
+.header__menu:hover ul , ul:hover
+{
+    display: block;
+}
+
+.header__menu li a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu--profile
+{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   
+}
+
+.header__menu--profile img
+{
+    margin-right: 8px;
+    width: 40px;
+}
+
+.header__menu--profile p
+{
+    margin : 0;
+    color: white;
+}
+
+
+.main
+{
+    height: 300px;
+}
+.main__title
+{
+    color: white;
+    font-size: 25px;
+}
+
+.input
+{
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+
+
+::placeholder
+{
+    color: white;
+}
+
+
+
+
